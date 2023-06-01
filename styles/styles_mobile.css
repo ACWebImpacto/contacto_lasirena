@@ -1,0 +1,667 @@
+.Desktop{
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 0px;
+
+    position: relative;
+
+    /* Most used/White */
+
+    background: #FFFFFF;
+}
+
+
+
+/* Div del header para la prueba */
+.header{
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 15px;
+    gap: 6px;
+
+    width: 100%;
+    height: 86px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    background-color: #8e48cf;
+}
+
+
+/* Div del breadcrumb para la prueba */
+.breadcrumb{
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px 15px;
+    gap: 4px;
+
+    width: 100%;
+    height: 28px;
+
+    /* Most used/White */
+
+    background: #c42c2c;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+
+/* Contacta */
+.texto_contacta{
+    /* Placeholder text */
+    width: 100%;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 22px;
+
+    color: #3C3C3B;
+}
+
+.contenedor_contacta{
+    /* identical to box height, or 117% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    /* Inside auto layout */
+
+    flex: none;
+    order: 2;
+    align-self: stretch;
+    flex-grow: 0
+
+}
+
+
+/* Contenedor de los dos div de la pagina */
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 15px 10px;
+    gap: 14px;
+    
+    /* Most used/White */
+    
+    background: #FFFFFF;
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 2;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+
+/* Div donde aparece la información para contactar y enviar el mensaje */
+.informacion{
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+    gap: 10px;
+;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 2;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+
+/* Div de la informacion para contactar */
+.info_contacto{
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px 0px 10px 1px;
+    gap: 14px;
+
+    background: rgba(123, 166, 181, 0.3);
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.info_contacto_texto{
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+    gap: 10px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+/* Div donde se le indica al usuario como contactar */ 
+.perfil_usuairo{
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 0px 0px 4px;
+    gap: 8px;
+
+    width: 374px;
+    height: 60px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.perfil_usuairo_texto{
+    width: 370px;
+    height: 60px;
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    /* or 143% */
+    
+    display: flex;
+    align-items: center;
+    
+    /* Most used/Black Primary */
+    
+    color: #000000;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}
+
+/* Div donde se encuentran los daots para contactar con la empresa */
+.formas_contactar{
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 14px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.formas_contactar_div{
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+
+    width: 292px;
+    height: 30px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+/* Estilo del texto del tipo de contacto */
+.texto_info{
+    width: 134px;
+    height: 18px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height, or 129% */
+
+    display: flex;
+    align-items: center;
+
+    /* Most used/Black Primary */
+
+    color: #000000;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+/* Estilo del texto del contacto */
+.texto_contacto{
+    width: 112px;
+    height: 18px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height, or 129% */
+
+    display: flex;
+    align-items: center;
+    text-align: right;
+
+    /* Most used/Black Primary */
+
+    color: #000000;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+/* Div del formulario a rellenar */
+.colum_contacto{
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0px 0px 10px;
+    gap: 14px;
+
+
+
+    /* Most used/White */
+
+    background: #FFFFFF;
+    border-radius: 6px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+/* Div de los elementos del formulario */
+.formulario{
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 12px;
+
+    width: 375px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}
+
+
+.elemento_mensaje{
+        /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+
+    width: 375px;
+    height: 126px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 3;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.elementos_form{
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+
+    width: 375px;
+    height: 128px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+flex-grow: 0;
+}
+
+
+/* Div de los elementos unitarios del formulario */
+.elemento_form{
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+
+    width: 375px;
+    height: 60px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+/* Estilo de los titulos de los elementos del from */
+.titulo_elm_form{
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 18px;
+    /* identical to box height, or 112% */
+
+    display: flex;
+    align-items: center;
+
+    /* Most used/Black Primary */
+
+    color: #000000;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+/* Estilo del select */
+.select{
+    box-sizing: border-box;
+
+    width: 375px;
+    height: 34px;
+
+    border: 0.5px solid #97A6B2;
+    border-radius: 2px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+    z-index: 0;
+}
+
+/* Estilo del texto de las opciones */
+.opcion{
+    position: absolute;
+    width: 111px;
+    height: 18px;
+    left: 0px;
+    top: 8px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    /* identical to box height, or 112% */
+
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    z-index: 1;
+}
+
+/* Estilos de los input del formulario */
+.input_corto{
+    box-sizing: border-box;
+
+    width: 375px;
+    height: 34px;
+
+    border: 0.5px solid #97A6B2;
+    border-radius: 4px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.input_largo{
+    box-sizing: border-box;
+
+    width: 375px;
+    height: 100px;
+
+    border: 0.5px solid #97A6B2;
+    border-radius: 4px;
+    resize: none;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+/* Estilos de aceptar terminos de privacidad */
+.contenedor_leido{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 5px;
+
+    width: 375px;
+    height: 36px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.texto_leido{
+    width: 357.65px;
+    height: 36px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    /* or 129% */
+
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 1;
+}
+
+/* Estilos del boton no soy un robot */
+.no_robot{
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+
+    width: 375px;
+    height: 89px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 2;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+/* Boton enviar */
+.enviar{
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 11px 0px;
+    gap: 10px;
+
+    width: 375px;
+    height: 40px;
+
+    background: #004078;
+    border-radius: 4px;
+
+    /* Texto */
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 18px;
+    color: #FFFFFF;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+
+/* Container primary info */
+.container_primary_info{
+    display: none;
+}
+
+
+
+/* Div del footer para la prueba */
+.footer{
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    height: 1096.23px;
+    
+    /* Most used/White */
+    
+    background: #8e48cf;
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 3;
+    align-self: stretch;
+    flex-grow: 0;
+}
