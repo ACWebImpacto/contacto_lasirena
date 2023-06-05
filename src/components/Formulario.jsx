@@ -3,6 +3,10 @@ import React from 'react'
 export const Formulario = () => {
 
     
+    function onRobbot(token) {
+        document.getElementById("demo-form").submit();
+    }
+
     return (
         <form>
             <div className='formulario'>
@@ -45,7 +49,11 @@ export const Formulario = () => {
                 <label htmlFor="leido" className='texto_leido'>He leído y acepto la política de privacidad de contacto.</label>
             </div>
             <div className='no_robot'>
-                No soy robot
+            <form action="?" method="POST">
+                <div className="g-recaptcha" data-sitekey="your_site_key"></div>
+                <br/>
+                <input type="submit" value="Submit" />
+            </form>
             </div>
             <input className='enviar' type="submit" name="enviar" value="ENVIAR" ></input>
         </form>

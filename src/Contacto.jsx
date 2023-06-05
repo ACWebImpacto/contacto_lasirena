@@ -1,5 +1,5 @@
 import { Formulario } from "./components/Formulario";
-import { Informacion } from "./components/informacion"
+import { Informacion } from "./components/Informacion"
 
 export const Contacto = () => {
 
