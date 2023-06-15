@@ -1,3 +1,4 @@
+import { ContenedorLogo } from "./components/ContenedorLogo";
 import { Formulario } from "./components/Formulario";
 import { Informacion } from "./components/Informacion"
 
@@ -33,7 +34,10 @@ export const Contacto = () => {
     return (
         <>
         <div className="Desktop">
-            <div className="header"></div>
+            <div className="header">
+                <div className="preheader"></div>
+                <ContenedorLogo />
+            </div>
             <div className="breadcrumb"></div>
             <div className="contenedor_contacta">
                 <span className="texto_contacta">Contacta con nosotros</span>

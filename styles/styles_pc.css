@@ -26,7 +26,7 @@
     padding: 0px;
 
     height: 186px;
-    background-color: #004078;
+    background-color: #ffffff;
 
     /* Inside auto layout */
 
@@ -36,6 +36,35 @@
     flex-grow: 0;
 }
 
+.preheader{
+    height: 35px;
+    width: 100%;
+}
+
+/* Estilo logo la sirena */
+.contenerdorLogo{
+    box-sizing: border-box;
+    height: 85px;
+    width: 146px;
+    display: flex;
+    flex-direction: row;
+    padding: 12px 32px;
+    gap: 39px;
+
+    border-top: 0.5px solid #D9D9D9;
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+
+.logo{
+    justify-content: center;
+    align-content: center;
+
+}
 
 /* Div del breadcrumb para la prueba */
 .breadcrumb{
