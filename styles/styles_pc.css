@@ -642,7 +642,6 @@
     padding: 22px 30px;
     gap: 24px;
 
-    width: 1366px;
     height: 72px;
 
 
@@ -669,12 +668,153 @@
 
     /* Most used/White */
 
-    background: #c51414;
+    background: #ffffff;
 
     /* Inside auto layout */
 
     flex: none;
     order: 5;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.newsletter{
+    height: 273px;
+
+    background: #004078;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.descuento{
+    position: absolute;
+    width: 570px;
+    height: 28px;
+    padding-left: calc(50% - 285px);
+    padding-top: 44.78px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 28px;
+    /* identical to box height, or 70% */
+
+
+    /* Most used/White */
+
+    color: #FFFFFF;
+}
+
+.apuntate{
+    position: absolute;
+    width: 805.16px;
+    height: 30.07px;
+    padding-left: calc(50% - 402.5px);
+    padding-top: 90.9px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 14px;
+    /* or 88% */
+
+    text-align: center;
+
+    /* Most used/White */
+
+    color: #FFFFFF;
+
+}
+
+.mejor_correo{
+    position: absolute;
+    width: 680px;
+    height: 56px;
+    margin-top: 130px;
+    margin-left: calc(50% - 340px);
+    
+    /* Other/Dark Blue */
+    
+    border: 1px solid #003364;
+    border-radius: 4px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #717786;
+    letter-spacing: -0.004em;
+}
+
+.enviar_correo{
+    position: absolute;
+    width: 111px;
+    height: 50px;
+    margin-top: 134px;
+    margin-left: calc(50% + 230px);
+
+    background: #7BA6B5;
+    border-radius: 4px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height, or 125% */
+
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    border-color: #7BA6B5;
+
+    color: #FFFFFF;
+
+}
+
+.check_info{
+
+    position: absolute;
+    height: 15px;
+    margin-left: calc(50% - 432px);
+    margin-top: 213.22px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    /* identical to box height, or 117% */
+
+    text-align: center;
+
+    /* Most used/White */
+
+    color: #FFFFFF;
+}
+
+.img_correo{
+    width: 598px;
+    height: 273px;
+    margin-left: calc( 100% - 598px);
+}
+
+.other_content{
+    height: 392px;
+
+    background: #474849;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
     align-self: stretch;
     flex-grow: 0;
 }

@@ -1,6 +1,7 @@
 import { ContenedorLogo } from "./components/ContenedorLogo";
 import { Formulario } from "./components/Formulario";
 import { Informacion } from "./components/Informacion"
+import { Newsletter } from "./components/Newsletter";
 
 export const Contacto = () => {
 
@@ -53,7 +54,12 @@ export const Contacto = () => {
             </div>
             <div className="container_primary_info">
             </div>
-            <div className="footer"></div>
+            <div className="footer">
+                <Newsletter />
+                <div className="other_content">
+
+                </div>
+            </div>
         </div>
         </>
     )
